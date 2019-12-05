@@ -6,6 +6,7 @@ const cors = require('cors');
 // as a parameter, and uses it to add various 3rd party middleware 
 // methods to it.
 // This is one method for helping your code to stay clean, but is not requried.
+// - Sean Kirby 
 
 module.exports = server => {
     server.use(helmet());
